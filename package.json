@@ -1,0 +1,34 @@
+{
+  "name": "gw-mcd",
+  "version": "0.3.0",
+  "description": "A Goblinewerks implementation of a console dungeon hack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funnisimo/gw-mcd.git"
+  },
+  "keywords": [
+    "goblinwerks",
+    "roguelike"
+  ],
+  "author": "Funnisimo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/funnisimo/gw-mcd/issues"
+  },
+  "homepage": "https://github.com/funnisimo/gw-mcd#readme",
+  "dependencies": {
+    "gw-utils": "^0.3.0",
+    "gw-map": "^0.3.0",
+    "gw-dig": "^0.3.0"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": true
+}
+}
